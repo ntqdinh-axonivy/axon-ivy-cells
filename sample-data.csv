@@ -1,0 +1,12 @@
+Item,Value
+Product A,100
+Product B,250
+Product C,75
+Product D,180
+Product E,320
+Product F,150
+Product G,90
+Product H,210
+Total Sum,=SUM(B2:B9)
+Average,=AVERAGE(B2:B9)
+Total + 10%,=B10*1.1
