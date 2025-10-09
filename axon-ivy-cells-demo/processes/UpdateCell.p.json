@@ -1,8 +1,8 @@
 {
-  "$schema" : "https://json-schema.axonivy.com/process/12.0.0/process.json",
+  "$schema" : "https://json-schema.axonivy.com/process/13.1.2/process.json",
   "id" : "199C2D95E0A41E27",
   "config" : {
-    "data" : "com.axonivy.market.my.product.name.demo.UpdateCellData"
+    "data" : "com.axonivy.utils.axon.ivy.cells.demo.UpdateCellData"
   },
   "elements" : [ {
       "id" : "f0",
@@ -28,7 +28,7 @@
       "id" : "f3",
       "type" : "DialogCall",
       "config" : {
-        "dialog" : "com.axonivy.market.my.product.name.demo.UpdateCells:start()"
+        "dialog" : "com.axonivy.utils.axon.ivy.cells.demo.UpdateCells:start()"
       },
       "visual" : {
         "at" : { "x" : 224, "y" : 64 }

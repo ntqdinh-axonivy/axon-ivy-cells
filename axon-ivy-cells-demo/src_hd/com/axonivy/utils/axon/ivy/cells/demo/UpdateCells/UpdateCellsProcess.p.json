@@ -3,7 +3,7 @@
   "id" : "199C2D9D48D2CC75",
   "kind" : "HTML_DIALOG",
   "config" : {
-    "data" : "com.axonivy.market.my.product.name.demo.UpdateCells.UpdateCellsData"
+    "data" : "com.axonivy.utils.axon.ivy.cells.demo.UpdateCells.UpdateCellsData"
   },
   "elements" : [ {
       "id" : "f0",
