@@ -19,7 +19,7 @@ public class CellFactory {
   }
 
   /**
-   * Initializes the Aspose DocumentFactory license.
+   * Initializes the Aspose CellFactory license.
    * <p>
    * Ensures the license is loaded once per request. If not already set, this
    * method retrieves the license from {@link ThirdPartyLicenses} and applies it
@@ -68,7 +68,7 @@ public class CellFactory {
   }
 
   /**
-   * Executes a supplier function after ensuring the Aspose DocumentFactory
+   * Executes a supplier function after ensuring the Aspose CellFactory
    * license is loaded.
    * <p>
    * This method guarantees that the license is initialized before invoking the
@@ -86,7 +86,7 @@ public class CellFactory {
   }
 
   /**
-   * Executes a runnable task after ensuring the Aspose DocumentFactory license is
+   * Executes a runnable task after ensuring the Aspose CellFactory license is
    * loaded.
    * <p>
    * This method guarantees that the license is initialized before invoking the
