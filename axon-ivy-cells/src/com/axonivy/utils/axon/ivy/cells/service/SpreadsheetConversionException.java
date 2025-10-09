@@ -1,8 +1,8 @@
 package com.axonivy.utils.axon.ivy.cells.service;
 
 /**
- * Exception thrown when Spreadsheet conversion operations fail. This is a runtime
- * exception that wraps underlying conversion errors.
+ * Exception thrown when Spreadsheet conversion operations fail. This is a
+ * runtime exception that wraps underlying conversion errors.
  */
 public class SpreadsheetConversionException extends RuntimeException {
   private static final long serialVersionUID = 1L;

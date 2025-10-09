@@ -9,17 +9,35 @@
 	<ui:composition template="/layouts/frame-10-full-width.xhtml">
 		<ui:define name="title">UpdateCells</ui:define>
 		<ui:define name="content">
-			<h3>Axon Ivy Words Demo: Upload .doc(x) file and convert it to
+			<h3>Axon Ivy Cell Demo: Upload .xls(x) file and convert it to
 				PDF</h3>
 			<br />
-
 			<h:form id="form" enctype="multipart/form-data">
 				<p:fileUpload value="#{cellFactoryBean.uploadedFile}"
 					skinSimple="true" mode="simple" label="Choose .doc/.docx" />
-				<br />
+				<h:panelGrid columns="2">
+					<p:outputLabel for="@next" value="Cell To Update"
+						styleClass="col-4" />
+					<p:inputText value="#{cellFactoryBean.cellToUpdate}" />
+
+					<p:outputLabel for="@next" value="New Cell Value"
+						styleClass="col-4" />
+					<p:inputNumber value="#{cellFactoryBean.newCellValue}" />
+
+					<p:outputLabel for="@next" value="Working Sheet Index"
+						styleClass="col-4" />
+					<p:inputNumber value="#{cellFactoryBean.workingSheetIndex}" />
+
+				</h:panelGrid>
+
 				<br />
 				<p:commandButton value="Convert and Download"
 					actionListener="#{cellFactoryBean.convert}" ajax="false"
+					icon="pi pi-download">
+					<p:fileDownload value="#{cellFactoryBean.convertedFile}" />
+				</p:commandButton>
+				<p:commandButton value="Update, Convert and Download"
+					actionListener="#{cellFactoryBean.updateWorkbook}" ajax="false"
 					icon="pi pi-download">
 					<p:fileDownload value="#{cellFactoryBean.convertedFile}" />
 				</p:commandButton>

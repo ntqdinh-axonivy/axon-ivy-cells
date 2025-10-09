@@ -1,4 +1,5 @@
 package com.axonivy.utils.axon.ivy.cells.service;
+
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
 import java.io.File;
@@ -10,8 +11,8 @@ import com.aspose.cells.Workbook;
 import ch.ivyteam.ivy.environment.Ivy;
 
 /**
- * Fluent API for spreadsheet conversion operations. Provides a chain of methods to
- * convert spreadsheets from one format to another.
+ * Fluent API for spreadsheet conversion operations. Provides a chain of methods
+ * to convert spreadsheets from one format to another.
  */
 public class SpreadsheetConverter {
   private Workbook workbook;
@@ -197,8 +198,8 @@ public class SpreadsheetConverter {
   }
 
   /**
-   * Converts the spreadsheet and returns it as an InputStream. Note: The caller is
-   * responsible for closing the returned InputStream.
+   * Converts the spreadsheet and returns it as an InputStream. Note: The caller
+   * is responsible for closing the returned InputStream.
    * 
    * @return an InputStream containing the converted spreadsheet data
    * @throws SpreadsheetConversionException if conversion fails
