@@ -1,6 +1,6 @@
-# axon.ivy.cells Connector
+# Axon Ivy Cells
 
-[![CI Build](https://github.com/axonivy-market/axon.ivy.cells/actions/workflows/ci.yml/badge.svg)](https://github.com/axonivy-market/axon.ivy.cells/actions/workflows/ci.yml)
+[![CI Build](https://github.com/axonivy-market/axon-ivy-cells/actions/workflows/ci.yml/badge.svg)](https://github.com/axonivy-market/axon-ivy-cells/actions/workflows/ci.yml)
 
 "YOUR SHORT DESCRIPTION GOES HERE"
 
